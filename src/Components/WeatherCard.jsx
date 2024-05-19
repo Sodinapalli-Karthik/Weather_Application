@@ -65,7 +65,7 @@ const WeatherCard = ({
         <p className='text-lg'>{heatIndex ? heatIndex : 'N/A'}</p>
       </div>
       <hr className='bg-slate-600' />
-      <div className='w-full p-4 flex justify-center items-center text-3xl font-semibold'>
+      <div className='w-full p-6 flex justify-center items-center text-3xl font-semibold'>
         {conditions}
       </div>
     </div>
